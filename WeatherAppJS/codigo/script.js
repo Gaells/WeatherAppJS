@@ -1,5 +1,3 @@
-// API Key
-// 9f7dabf0b51c6856353715ab24d8e152
 const container = document.querySelector('.container');
 const search = document.querySelector('.search-box button');
 const weatherBox = document.querySelector('.weather-box');
@@ -8,7 +6,7 @@ const error404 = document.querySelector('.not-found');
 
 search.addEventListener('click', () => {
 
-    const APIKey = '9f7dabf0b51c6856353715ab24d8e152';
+    const APIKey = 'A chave da API vem aqui';
     const city = document.querySelector('.search-box input').value;
 
     if (city === '')
